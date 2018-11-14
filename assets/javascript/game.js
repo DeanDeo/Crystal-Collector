@@ -4,8 +4,8 @@ var wins = 0;
 var previous = 0;
 
 
-$("#wins").text("Wins = " + wins);
-$("#losses").text("Losses = " + losses);
+$("#wins").text("Wins: " + wins);
+$("#losses").text("Losses: " + losses);
 
 var resetAndStart = function () {
 
