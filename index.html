@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CrystalsCollector</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="C:/Users/djdeo/Desktop/unit-4-game/assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-    <script src="C:/Users/djdeo/Desktop/unit-4-game/assets/javascript/game.js"></script>
+   
 </head>
 <body>
 
@@ -28,18 +29,19 @@
     <br>
     <p>Each time when the game starts, the game will change the values of each crystal</p>
 
-    <div>
-        random number
-    </div>
-    <div>
-        <li>
-            <ul>Wins: </ul>
-            <ul>Losses: </ul>
-        </li>
-
-    <div id="crystals">
-    </div>
     
+    <p id="result"></p>
+	
+	<div class="crystals">
+		
+	</div>
+
+	<p id="previous"></p>
+
+	<p id="wins"></p>
+	<p id="losses"></p>
+    
+    <script src="assets/javascript/game.js"></script>
     
 </body>
 </html>

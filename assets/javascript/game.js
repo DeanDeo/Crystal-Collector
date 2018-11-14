@@ -1,25 +1,29 @@
-var targetNumber = "";
+var randomResult;
 var wins = 0;
 var losses = 0;
-var counter = 0;
-var Images = ["C:\Users\djdeo\Desktop\unit-4-game\assets\images\blue.png"]
+var previous = 0;
+// var Images = ["assets/images/red.png","assets/images/blue.png","assets/images/yellow.png", "assets/images/green.png"]
 
 
-//functions
+var resetAndStart = function (){
+    $(".crystals").empty();
 
-function randomTargetNumber(){
-    targetNumber = Math.floor(Math.random()*102 + 19);
-}
+    var Images = ["assets/images/red.png","assets/images/blue.png","assets/images/yellow.png", "assets/images/green.png"]
 
-$("#number-to-guess").text(targetNumber);
+    randomResult = Math.floor(Math.random() *120 +1);
 
-var numberOptions = [10,5,3,7]
+    $("#result").html('Random Result: ' + randomResult);
 
-for (var i = 0; i < numberOptions.length; i++) {
-    var imageCrystal = $("<img>");
-    imageCrystal.addClass("crystal-image");
-    imageCrystal.attr("src", "Images[i]" )
-    imageCrystal.attr("data-crystalValue", numberOptions[i]);
-    $("#crystals").append(imageCrystal);
+    for (var i = 0; i < 4; i++){
 
+        var random = Math.floor(Math.random()*11 +1);
+
+        var crystal = $("<div>");
+            crystal.attr({
+                "class": 'crystal',
+                "data-random": random
+
+            });
+        
+    }
 }
