@@ -1,5 +1,63 @@
-.crystal-image{
-    width: 100px;
-    height: 100px;
+body{
+	
+	background-image: url("../images/background.png");
+
 }
 
+
+.crystals{
+	display: flex;
+
+}
+
+.crystal{
+
+	height:50px;
+	width: 50px;
+
+}
+
+h1 {
+	background-color: orangered;
+	color: white;
+	width: 350px;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.instructions{
+	color: green;
+	background-color:tan;
+	width: 35%;
+	padding-bottom: 100px;
+}
+
+#result{
+	background-color: rgb(39, 214, 39);
+	width: 200px;
+	height: 100px;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+#previous{
+	background-color:rgb(7, 133, 122);
+	width: 200px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+.yourResult{
+	display: inline-block;
+	background-color: lightskyblue;
+	height: 100px;
+	margin-top: 25px;
+}
+
+#wins{
+	display: inline-block
+}
+
+#losses{
+	display: inline-block
+}
