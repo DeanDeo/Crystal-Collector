@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collector
 
 This project uses javascript/jquery functions to build a crystal counter game.
 
@@ -20,3 +20,5 @@ the HTML on the screen and then moving to your javascript/jquery.
 
 If you need help with this project, you can find different versions of this
 project on github and there are also video tutorials on youtube.
+
+<img width="374" alt="capture" src="https://user-images.githubusercontent.com/44249106/50936769-a1643800-1436-11e9-88a6-3b7184085b66.PNG">
